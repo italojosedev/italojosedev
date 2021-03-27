@@ -2,22 +2,10 @@ import React from "react";
 
 import Author01 from "../../resources/img/author01.jpg";
 import Author02 from "../../resources/img/author02.jpg";
-
 import {  ContainerAvatar } from "./styled";
 
 export default function Avatar() {
-    // const [isShown, setIsShown] = useState(false);
-    // const [isImageShown, setIsImageShown] = useState(0);
-
-    // const setHover = () => {
-    //     let count = isImageShown + 1;
-    //     setIsShown(true);
-    //     if (count > 1) setIsImageShown(0);
-    // };
-    // const variants = {
-    //     open: { opacity: 1, scale: 1.1, delay: 0.5 },
-    //     closed: { opacity: 0.4 },
-    // };
+  
     return (
         <>
             <ContainerAvatar

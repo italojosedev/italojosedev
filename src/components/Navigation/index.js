@@ -6,6 +6,9 @@ import SideBar from "../SideBar";
 
 import Home from "../../pages/Home";
 import About from "../../pages/About";
+import Skills from "../../pages/Skills";
+import Contact from "../../pages/Contact";
+import Portifolio from "../../pages/Portifolio";
 import { Background, Body, Main } from "./styled";
 // Get Framer Motion https://framer.com/motion
 
@@ -22,6 +25,9 @@ const App = () => (
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
+                    <Route exact path="/skills" component={Skills} />
+                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/portifolio" component={Portifolio} />
                 </Switch>
             </AnimatePresence>
         </Router>

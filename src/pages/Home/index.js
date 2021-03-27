@@ -4,23 +4,20 @@ import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
-import X from '../../resources/img/x.png';
-import bolinha from "../../resources/img/bolinha.png";
-import triangulo from "../../resources/img/triangulo.png";
-import quadrado from "../../resources/img/quadrado.png";
-
+// import X from '../../resources/img/x.png';
+// import bolinha from "../../resources/img/bolinha.png";
+// import triangulo from "../../resources/img/triangulo.png";
+// import quadrado from "../../resources/img/quadrado.png";
 import {
     H2,
     H3Link,
     Container,
     ContainerTitle,
     ContainerLinks,
-    SocialContainer,
 } from "./styled";
 import Avatar from "./Avatar";
-import { GrTwitter, GrLinkedin, GrGithub } from "react-icons/gr";
 
-
+import SocialMedia from '../../components/SocialMedia'
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] };
 
 const thumbnailVariants = {
@@ -71,33 +68,7 @@ function Home() {
                 <H2>
                     sou desenvolvedor <span>Full Stack</span>
                 </H2>
-                <SocialContainer>
-                    <motion.div
-                        className="frame"
-                        whileHover="hover"
-                        variants={frameVariants}
-                        transition={transition}
-                    >
-                        <GrTwitter color="#707070" size={16} />
-                    </motion.div>
-                    <motion.div
-                        className="frame"
-                        whileHover="hover"
-                        variants={frameVariants}
-                        transition={transition}
-                    >
-                        <GrLinkedin color="#707070" size={16} />
-                    </motion.div>
-                    <motion.div
-                        className="frame"
-                        whileHover="hover"
-                        variants={frameVariants}
-                        transition={transition}
-                    >
-                        {" "}
-                        <GrGithub color="#707070" size={16} />
-                    </motion.div>
-                </SocialContainer>
+                <SocialMedia />
             </ContainerTitle>
 
             <ContainerLinks>

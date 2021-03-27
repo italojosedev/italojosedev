@@ -7,6 +7,14 @@ export const Container = styled.div`
     align-items: center;
 `;
 
+export const SocialContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+`;
 export const ContainerAvatar = styled.div`
     background-color: transparent;
     width: 90px;

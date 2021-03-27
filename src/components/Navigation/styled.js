@@ -2,6 +2,7 @@
 //import { motion } from "framer-motion";
 import styled from "styled-components";
 import Colors from '../../resources/Colors'
+// import Fonts from '../../resources/styles/Fonts'
 
 export const Background = styled.div`
   background: ${Colors.background.main};
@@ -16,6 +17,7 @@ export const Background = styled.div`
 `;
 
 export const Body = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
   color: #707070;
   height: 100vh;
   position: fixed;
@@ -24,6 +26,10 @@ export const Body = styled.div`
   justify-content: space-between;
   top:0;
   left: 75px;
+  p {
+    font-family: 'Chango', cursive;
+    font-size: 25px;
+  }
 `;
 
 export const Main = styled.div`
