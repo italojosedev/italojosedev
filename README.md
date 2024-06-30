@@ -1,12 +1,9 @@
 # Developer ítalo jose
 
- [Site Online](https://itelojose.com.br)
+ [digitech](https://digtechcom.br)
 
 
  # Skills
 
- REACT JS
- styled-components
- react-router-dom
- framer-motion
- react-icons
+ NODE JS
+ PHO
