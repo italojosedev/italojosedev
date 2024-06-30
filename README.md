@@ -6,4 +6,4 @@
  # Skills
 
  NODE JS
- PHO
+ PHP
