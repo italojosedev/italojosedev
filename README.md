@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ítalo José</h1>
-<h3 align="center">Senior FullStack Developer | Software Architect</h3>
+<h3 align="center">Full-stack developer FullStack Developer | Software Architect</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-High%20Scalability-blue?style=for-the-badge" alt="Focus">
